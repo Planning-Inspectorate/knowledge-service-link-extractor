@@ -19,3 +19,6 @@ RStudio/IDE
   * `word_to_html_rmd_toggle` - this should be set to TRUE or FALSE (first time running this will need to be TRUE for subsequent toggles to function)
   * `extract_hyperlinks_toggle` - this should be set to TRUE or FALSE  to indicate whether to run hyperlink extraction from .html docs (first time running this will need to be TRUE for subsequent toggles to function).
   * `link_processing_toggle` - this should be set to TRUE or FALSE to determine whether you wish to process the extracted links.
+  
+  ## Future developments
+  Currently the conversion to .html is somewhat crude and will need some work on the formatting.
