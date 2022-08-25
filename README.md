@@ -2,8 +2,9 @@
 `knowledge-service-link-extractor` is a proof of concept for link/document management for Word documents. It converts Word documents to HTML (and also outputs an equivalent Rmarkdown document), extracts hyperlinks from the new HTML documents and then if any of those links are to PDF documents where an HTML page has been saved as a PDF, it extracts the original URL associated with that web page. It also adds some Planning Inspectorate (PINS) specific metadata to the links to indicate whether the link is a `gov.uk` hosted page, internally hosted or other externally hosted file.
 
 ## Pre-requisites
-R
-RStudio/IDE
+* R
+* RStudio/IDE
+* At least one Word file with embedded hyperlinks
 
 ## What's in this repo
 * `link_extraction_RUNFILE.R` - main wrapper that is run by user and calls on three functions.
