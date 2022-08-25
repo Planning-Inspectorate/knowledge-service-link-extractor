@@ -22,4 +22,5 @@
   * `link_processing_toggle` - this should be set to TRUE or FALSE to determine whether you wish to process the extracted links.
   
   ## Future developments
-  Currently the conversion to .html is somewhat crude and will need some work on the formatting.
+  * Replace existing links with reviewed/curated links.
+  * Currently the conversion to .html is somewhat crude and will need some work on the formatting.
